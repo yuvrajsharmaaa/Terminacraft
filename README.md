@@ -2,7 +2,7 @@
 
 TerminalCraft is a humorous, interactive Minecraft-style terminal game for the web. Chat with a sassy version of Steve, who roasts you, triggers random Minecraft events, and responds to your commands in a retro terminal interface.
 
-![screenshot](screenshot.png)
+![screenshot]("C:\Users\YUVRAJ\OneDrive\Desktop\ChatGPT Image Jun 6, 2025, 01_03_42 AM.png")
 
 ## Features
 - **Sassy Steve Chatbot:** Steve roasts you, responds to greetings, and throws Minecraft-style shade at every turn.
