@@ -1,0 +1,13 @@
+{
+  "name": "minecraft-terminal-game",
+  "version": "1.0.0",
+  "description": "A fun web-based terminal-style game that pretends to be Steve from Minecraft",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vercel dev",
+    "deploy": "vercel deploy"
+  },
+  "devDependencies": {
+    "vercel": "^32.0.0"
+  }
+} 

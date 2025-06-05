@@ -1,0 +1,11 @@
+{
+    "version": 2,
+    "builds": [
+        { "src": "public/**/*", "use": "@vercel/static" }
+    ],
+    "routes": [
+        { "src": "/mc-terminal.html", "dest": "/public/mc-terminal.html" },
+        { "src": "/mc-game.js", "dest": "/public/mc-game.js" },
+        { "src": "/(.*)", "dest": "/public/$1" }
+    ]
+} 

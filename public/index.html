@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minecraft Terminal - Redirecting...</title>
+    <style>
+        body {
+            background-color: #1a1a1a;
+            color: #33ff33;
+            font-family: 'Press Start 2P', cursive;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            text-align: center;
+        }
+        a {
+            color: #33ff33;
+            text-decoration: none;
+            border: 2px solid #33ff33;
+            padding: 10px 20px;
+            margin-top: 20px;
+            display: inline-block;
+        }
+        a:hover {
+            background-color: #33ff33;
+            color: #1a1a1a;
+        }
+    </style>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <script>
+        // Try to redirect immediately
+        window.location.href = '/mc-terminal.html';
+        
+        // If redirect fails after 2 seconds, show manual link
+        setTimeout(function() {
+            document.getElementById('manual-link').style.display = 'block';
+        }, 2000);
+    </script>
+</head>
+<body>
+    <div>
+        <h1>Minecraft Terminal</h1>
+        <p>Redirecting to the game...</p>
+        <a href="/mc-terminal.html" id="manual-link" style="display: none;">Click here if not redirected automatically</a>
+    </div>
+</body>
+</html> 
